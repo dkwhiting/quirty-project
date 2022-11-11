@@ -1,0 +1,19 @@
+#construction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#construction h1 {
+  font-size: 2em;
+  font-family: 'Dosis';
+  padding: 10px 50px 0 50px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #construction h1 {
+    padding: 10px;
+  }
+}
