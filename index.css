@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header,
+footer {
+  flex: none;
+}
+
+main {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}
