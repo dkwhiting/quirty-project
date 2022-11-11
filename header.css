@@ -59,9 +59,11 @@ header {
 }
 
 .company-name {
+  text-decoration: none;
+  color: rgb(26, 73, 73);
   text-align: center;
   font-family: 'Cormorant Garamond';
-  font-size: 40px;
+  font-size: 45px;
   flex: 0 0 216px;
 }
 
